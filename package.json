@@ -1,9 +1,12 @@
 {
-  "name": "nuxt-matomo",
+  "name": "@zecar/nuxt-matomo",
   "version": "1.2.4",
   "license": "MIT",
   "description": "Matomo analytics for Nuxt.js",
-  "repository": "https://github.com/pimlie/nuxt-matomo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimlie/nuxt-matomo.git"
+  },
   "homepage": "https://github.com/pimlie/nuxt-matomo",
   "main": "lib/module.js",
   "keywords": [
@@ -56,5 +59,13 @@
     "nuxt": "^2.14.12",
     "puppeteer": "^5.5.0",
     "standard-version": "^9.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/pimlie/nuxt-matomo/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }

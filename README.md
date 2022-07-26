@@ -5,6 +5,18 @@
 
 Add Matomo analytics to your nuxt.js application. This plugin automatically sends first page and route change events to matomo
 
+### This module works with runtimeConfig
+```
+// nuxt.config.js
+{
+	runtimeConfig: {
+		matomo: {
+			siteId: process.env.MATOMO_SITE_ID || 1
+		}
+	}
+}
+```
+
 ## Setup
 > nuxt-matomo is not enabled in `dev` mode unless you set the debug option
 
